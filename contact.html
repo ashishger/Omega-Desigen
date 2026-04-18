@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Omega Design | Start Your House Design Project</title>
+  <meta name="description" content="Contact Omega Design for house planning, 3D visualization, interior and exterior design consultation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-orb bg-orb-left" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-right" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Omega Design home">
+        <img src="assets/omega-mark.svg" alt="Omega Design logo mark" width="52" height="52">
+        <span>
+          OMEGA DESIGN
+          <small>From Vision To Verified Design</small>
+        </span>
+      </a>
+
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="process.html">Process</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <a class="btn btn-small nav-cta" href="contact.html#enquiry-form">Start Your Plan</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section inner-hero">
+      <div class="container split-layout hero-compact">
+        <article class="panel" data-reveal>
+          <p class="overline">Contact Omega Design</p>
+          <h1 class="section-title">Tell us your requirements and we will guide your project roadmap.</h1>
+          <p>
+            Share your plot details, expected timeline, and service needs. Our team will respond with
+            suitable next steps and consultation support.
+          </p>
+        </article>
+        <article class="panel panel-accent" data-reveal>
+          <h3>Direct Contact</h3>
+          <ul class="contact-quick">
+            <li><span>Phone 1:</span> <a href="tel:+917044558810">+91 7044558810</a></li>
+            <li><span>Phone 2:</span> <a href="tel:+919123700572">+91 9123700572</a></li>
+            <li><span>Email:</span> <a href="mailto:omega.design@aol.com">omega.design@aol.com</a></li>
+            <li><span>Address:</span> Tish, Beagumpur, Hooghly, West Bengal, 712304</li>
+            <li><span>Hours:</span> Monday to Saturday, 10:00 AM to 7:00 PM</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="enquiry">
+      <div class="container contact-grid">
+        <article class="panel panel-dark" data-reveal>
+          <p class="overline">Enquiry Support</p>
+          <h2 class="section-title">Why clients contact us early</h2>
+          <ul class="check-list">
+            <li>Get design direction before construction begins</li>
+            <li>Avoid space planning mistakes and late redesign cost</li>
+            <li>Align home style with budget and structural practicality</li>
+            <li>Understand process milestones and timeline expectations</li>
+          </ul>
+          <div class="social-links">
+            <a href="https://www.facebook.com/share/18N9BMEvJw/" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="mailto:omega.design@aol.com">Email</a>
+            <a href="tel:+917044558810">Call Now</a>
+          </div>
+        </article>
+
+        <article class="panel" data-reveal>
+          <form id="enquiry-form" novalidate>
+            <div class="form-grid two-col">
+              <label>
+                Full Name
+                <input type="text" name="full_name" autocomplete="name" required>
+              </label>
+              <label>
+                Mobile Number
+                <input type="tel" name="mobile_number" autocomplete="tel" required>
+              </label>
+              <label>
+                Email Address
+                <input type="email" name="email" autocomplete="email" required>
+              </label>
+              <label>
+                Service Needed
+                <select name="service_needed" required>
+                  <option value="">Select service</option>
+                  <option>House Plan 2D</option>
+                  <option>3D House Visualization</option>
+                  <option>Interior Design</option>
+                  <option>Exterior Design</option>
+                  <option>Building Consultancy</option>
+                  <option>Authorisation Design Support</option>
+                </select>
+              </label>
+              <label>
+                Plot Size (optional)
+                <input type="text" name="plot_size" placeholder="Example: 1200 sq.ft">
+              </label>
+              <label>
+                Project Location
+                <input type="text" name="project_location" required>
+              </label>
+              <label>
+                Estimated Budget (optional)
+                <input type="text" name="estimated_budget" placeholder="Example: Rs. 18 lakh">
+              </label>
+              <label>
+                Preferred Start Timeline
+                <select name="timeline" required>
+                  <option value="">Select timeline</option>
+                  <option>Immediate</option>
+                  <option>Within 1 month</option>
+                  <option>Within 3 months</option>
+                  <option>Planning stage only</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              Project Details
+              <textarea name="project_details" placeholder="Share floors, room count, style preference, and any special requirements." required></textarea>
+            </label>
+
+            <label class="check-wrap">
+              <input type="checkbox" name="consent" value="Yes" required>
+              I agree to be contacted by Omega Design regarding this enquiry.
+            </label>
+
+            <input type="text" name="_honey" class="hidden-field" tabindex="-1" autocomplete="off">
+
+            <button class="btn" type="submit">Send Enquiry</button>
+            <p class="form-note">First time FormSubmit setup may require one-time email activation.</p>
+            <p class="form-status" data-form-status hidden></p>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <a class="brand footer-brand" href="index.html" aria-label="Omega Design home">
+          <img src="assets/omega-mark.svg" alt="Omega Design icon" width="40" height="40">
+          <span>
+            OMEGA DESIGN
+            <small>Building Plan and Design</small>
+          </span>
+        </a>
+        <p>Premium residential planning and design consultancy.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="process.html">Process</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>Copyright <span data-year></span> Omega Design. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
