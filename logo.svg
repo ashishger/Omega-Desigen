@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Omega Design Monogram</title>
+  <desc id="desc">Stylized building icon mark for Omega Design.</desc>
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#40dbff"/>
+      <stop offset="100%" stop-color="#1a60ff"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f2c9d"/>
+      <stop offset="100%" stop-color="#12206e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="76" cy="20" r="14" fill="#ffb43a"/>
+  <path d="M16 94V34l28-16v76z" fill="url(#glass)"/>
+  <path d="M44 94V20l34 18v56z" fill="#8deaff" opacity="0.9"/>
+  <path d="M18 94 47 24h14L33 94z" fill="url(#frame)"/>
+  <path d="M44 94V30l30 16v48z" fill="url(#frame)"/>
+  <rect x="14" y="96" width="72" height="6" rx="3" fill="#75d43d"/>
+</svg>

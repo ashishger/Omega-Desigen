@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="t d">
+  <title id="t">Residential Building Structural Plan</title>
+  <desc id="d">First floor over existing ground floor plan under Kapasharia Gram Panchayat.</desc>
+  <rect width="1600" height="1000" fill="#ededed"/>
+  <rect x="30" y="30" width="1540" height="940" fill="none" stroke="#212121" stroke-width="3"/>
+  <line x1="1120" y1="30" x2="1120" y2="970" stroke="#222" stroke-width="2"/>
+  <text x="70" y="94" font-family="Inter, Arial" font-size="34" font-weight="700" fill="#111">PLAN FOR PROPOSED FIRST FLOOR OVER EXISTING GROUND FLOOR</text>
+  <text x="70" y="138" font-family="Inter, Arial" font-size="30" fill="#222">CLIENT: SRI DILIP GER | LOCATION: BEGAMPUR, HOOGHLY</text>
+  <text x="70" y="182" font-family="Inter, Arial" font-size="30" fill="#222">TYPE: 2D &amp; STRUCTURAL PLAN | KAPASHARIA GRAM PANCHAYAT</text>
+  <rect x="86" y="250" width="930" height="640" fill="none" stroke="#222" stroke-width="2"/>
+  <rect x="140" y="298" width="300" height="220" fill="none" stroke="#222" stroke-width="2"/>
+  <rect x="520" y="298" width="320" height="220" fill="none" stroke="#222" stroke-width="2"/>
+  <rect x="140" y="560" width="700" height="270" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="8 8"/>
+  <text x="1180" y="300" font-family="Inter, Arial" font-size="28" fill="#111">SPECIFICATIONS</text>
+  <text x="1180" y="350" font-family="Inter, Arial" font-size="22" fill="#222">• First floor over existing ground</text>
+  <text x="1180" y="388" font-family="Inter, Arial" font-size="22" fill="#222">• Area and stair details included</text>
+  <text x="1180" y="426" font-family="Inter, Arial" font-size="22" fill="#222">• Structural and section notes</text>
+  <text x="1180" y="464" font-family="Inter, Arial" font-size="22" fill="#222">• Project by Omega Design</text>
+</svg>
