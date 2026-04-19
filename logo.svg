@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">Omega Design Logo</title>
+  <desc id="desc">Omega Design building plan and design brand mark on dark background.</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2fd1ff"/>
+      <stop offset="100%" stop-color="#0f4bd7"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0b2f6d"/>
+      <stop offset="100%" stop-color="#19b97a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="420" fill="#05070b"/>
+  <circle cx="290" cy="122" r="58" fill="#ffad2f"/>
+  <polygon points="92,344 92,140 260,60 260,344" fill="url(#g1)"/>
+  <polygon points="126,326 126,168 238,105 238,326" fill="#a7e8ff" opacity="0.82"/>
+  <path d="M120 332 L210 96 L246 112 L158 332 Z" fill="#122f96"/>
+  <path d="M96 344 H264" stroke="#74d23a" stroke-width="12"/>
+  <text x="420" y="214" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="800" fill="url(#g2)">OMEGA DESIGN</text>
+  <text x="420" y="272" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="700" fill="#0c4b8f">WE CREATE DESIGN</text>
+  <rect x="510" y="292" width="620" height="66" rx="10" fill="#0d4e96"/>
+  <text x="560" y="338" font-family="Playfair Display, Georgia, serif" font-size="54" font-weight="600" fill="#e3f5ff">Building Plan &amp; Design</text>
+</svg>
