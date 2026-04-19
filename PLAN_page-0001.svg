@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="t d">
+  <title id="t">G+II Residential Building Plan</title>
+  <desc id="d">Working plan sheet for G plus two residential building in Chakoli, Howrah.</desc>
+  <rect width="1600" height="1000" fill="#e7eaef"/>
+  <rect x="32" y="32" width="1536" height="936" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+  <text x="70" y="110" font-family="Inter, Arial" font-size="52" font-weight="700" fill="#111">WORKING PLAN OF A G+II STORIED BUILDING</text>
+  <text x="70" y="182" font-family="Inter, Arial" font-size="40" fill="#222">GROUND FLOOR AREA = 1234 SFT</text>
+  <text x="70" y="238" font-family="Inter, Arial" font-size="40" fill="#222">FIRST FLOOR AREA = 1332 SFT</text>
+  <text x="70" y="294" font-family="Inter, Arial" font-size="40" fill="#222">TOTAL FLOOR AREA = 2566 SFT</text>
+  <rect x="120" y="390" width="560" height="430" fill="none" stroke="#222" stroke-width="4"/>
+  <rect x="980" y="390" width="430" height="270" fill="none" stroke="#222" stroke-width="4"/>
+  <rect x="980" y="720" width="430" height="190" fill="none" stroke="#222" stroke-width="4" stroke-dasharray="14 10"/>
+  <text x="132" y="860" font-family="Inter, Arial" font-size="58" font-weight="700" fill="#111">GROUND FLOOR PLAN</text>
+  <text x="980" y="700" font-family="Inter, Arial" font-size="58" font-weight="700" fill="#111">FIRST FLOOR PLAN</text>
+  <text x="980" y="955" font-family="Inter, Arial" font-size="58" font-weight="700" fill="#111">ROOF BEAM PLAN</text>
+  <text x="70" y="950" font-family="Inter, Arial" font-size="54" font-weight="800" fill="#111">AIM CONSTRUCTION GROUP</text>
+</svg>
